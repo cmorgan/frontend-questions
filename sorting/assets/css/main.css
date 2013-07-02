@@ -1,0 +1,38 @@
+body,h1,h2,h3,h4,h5 {
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+background:url(../img/dvsup.png) 0 0 repeat;
+color: rgb(187, 230, 236);
+}
+#body_wrap {
+    margin:30px auto;
+    width:1000px;
+}
+
+.cols_wrap {
+    width:1000px;
+    height:240px;
+    background: rgba(255,255,255,0.1);
+    overflow-x:auto;
+    margin:0 0 10px 0;
+}
+.cols {
+    list-style-type: none;
+    margin:20px 0 0 0;
+    padding:0;
+    height:200px;
+    width:1000px;
+}
+.col {
+    height:50px;
+    width:1px;
+    float: left;
+    margin:0 0 0 0;
+    background: rgba(187, 230, 236, 0.93);
+    border-radius:2px 2px 0 0;
+}
+.col.pivot {
+    background:red;
+}
+.col.swapping {
+    background:yellow;
+}
